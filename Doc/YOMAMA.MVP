@@ -1,0 +1,32 @@
+[OPTIONS]
+ROOT      = .
+WARNING   = 3
+MAKE      = FULL
+BATCH     = TRUE
+contents=ctx_contents
+copyright=Copyright © 1995 Inner-City Software, Inc.
+title=Yo Mama!
+citation=Copyright ©1995 Inner-City Software, Inc. and Your Mama
+ignoresection=PANEASSOC
+
+[FILES]
+yomama.rtf
+
+[KEYINDEX]
+
+[FTINDEX]
+RANKED = YES
+dtype0=MVBRKR!FBreakWords;Change DLL Routine to FBreakAndStemWords to use word stemming
+dtype1=MVBRKR!FBreakNumber
+dtype2=MVBRKR!FBreakDate
+dtype3=MVBRKR!FBreakTime
+dtype4=MVBRKR!FBreakEpoch
+
+[GROUPS]
+
+[DLLMAPS]
+MVBRKR = MVBK13W, MVBK13WD, MVBK13N, MVBK13ND
+MVMCI = MVMC13W, MVMC13WD, MVMC13N, MVMC13ND
+MVIMG = MVMG13W, MVMG13WD, MVMG13N, MVMG13ND
+
+[BAGGAGE]

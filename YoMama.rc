@@ -1,0 +1,195 @@
+//Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""res\\YoMama.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "\r\n"
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "#include ""afxres.rc""  // Standard components\r\n"
+    "#include ""Snaps.rc""  // The snaps\r\n"
+    "\0"
+END
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  34, 22, 302, 247
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Yo' Mama! Version 1.0"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,269,7,18,20
+    LTEXT           "This program is FREEWARE and is dedicated to all of those who grew up on 'Yo Mama' jokes.  The snaps were bogarded from David Hubbard's hilarious 'Yo Mama' Web Page at http://bleach.eng.usf.edu/yomama.html.",
+                    IDC_STATIC,15,49,272,25
+    CTEXT           "Email: kennyg@innercity.com",IDC_STATIC,15,142,272,8
+    CTEXT           "World-Wide Web: http://www.innercity.com",IDC_STATIC,15,
+                    193,272,8
+    CTEXT           "Phone (US and Canada): 1-800-538-6946",IDC_STATIC,15,
+                    155,272,8
+    CTEXT           "Phone (outside US): 617-445-4065",IDC_STATIC,15,168,272,
+                    8
+    CTEXT           "FAX: 617-445-4107",IDC_STATIC,15,181,272,8
+    CTEXT           "Snail Mail: P.O. Box 969 Boston, MA 02118 USA",
+                    IDC_STATIC,15,206,272,8
+    LTEXT           "This program will display a random crack on yo' mama every time it is started.  Put it in your startup Folder to start your day off with a smile!",
+                    IDC_STATIC,15,5,251,20
+    LTEXT           "Hey, it also tells you what time it is so it actually DOES have some socially redeeming value!",
+                    IDC_STATIC,15,28,251,17
+    LTEXT           "This program was written by Kenny G. of Inner-City Software.  It is NOT an official ICS product nor will it ever be.  It is Kenny's personal project and he is responsible for all aspects of it.  Kenny can be reached in the following ways:",
+                    IDC_STATIC,15,103,272,25
+    LTEXT           "Please take the jokes with a sense of humor.  They are generally G-rated, with a couple of PG-13s.  See the YOMAMA.INI file for information on filtering the snaps.",
+                    IDC_STATIC,15,80,272,18
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,15,135,272,1
+    DEFPUSHBUTTON   "OK",IDOK,126,227,50,14
+END
+
+IDD_YOMAMA_DIALOG DIALOG DISCARDABLE  0, 0, 215, 98
+STYLE DS_MODALFRAME | WS_MINIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "Snap of the Day"
+FONT 10, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "&Close",IDOK,49,78,50,14
+    PUSHBUTTON      "&New Snap",IDC_NEW,115,78,50,14
+    LTEXT           "Now, let me tell you about yo' mama...",IDC_STATIC,28,
+                    28,139,8
+    EDITTEXT        IDC_EDIT,7,40,201,30,ES_MULTILINE | ES_READONLY
+    LTEXT           "",IDC_GREETING,3,4,204,14,SS_NOPREFIX
+    ICON            IDR_MAINFRAME,IDC_STATIC,7,20,16,16
+    DEFPUSHBUTTON   "&Close",IDOK16,16,78,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "&New Snap",IDC_NEW16,82,78,50,14,NOT WS_VISIBLE
+    PUSHBUTTON      "&About...",IDM_ABOUTBOX,148,78,50,14,NOT WS_VISIBLE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "This was created with the help of text bogarded from http://bleach.eng.usf.edu/yomama.html.\0"
+            VALUE "CompanyName", "Inner-City Software\0"
+            VALUE "FileDescription", "Snap of the Day\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "YOMAMA32\0"
+            VALUE "LegalCopyright", "Copyright \251 1995 Inner-City Software\0"
+            VALUE "LegalTrademarks", "Inner-City Software is a trademark of Inner-City Software, Inc. so don't mess with it - we can get ugly!\0"
+            VALUE "OriginalFilename", "YOMAMA32.EXE\0"
+            VALUE "ProductName", "Snap of the Day\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\blakbart.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    IDS_MORNING             "Good morning!  It's "
+    IDS_AFTERNOON           "Good afternoon!  It's "
+    IDS_EVENING             "Good evening!  It's "
+    IDS_NIGHT               "Good night!  It's "
+    IDS_LATENIGHT           "What are you doing up this late?  Are you a programmer?  It's "
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Yo' Mama..."
+END
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#include "res\YoMama.rc2"  // non-Microsoft Visual C++ edited resources
+
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+#include "afxres.rc"  // Standard components
+#include "Snaps.rc"  // The snaps
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
